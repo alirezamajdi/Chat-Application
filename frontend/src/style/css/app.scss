@@ -1,0 +1,26 @@
+// components
+
+@import "./component/index.css";
+@import "./component/chat.css";
+@import "./component/landing.css";
+@import "./component/auth.css";
+@import '~leaflet/dist/leaflet.css';
+@import "~react-notifications-component/dist/theme.css";
+@import "~bootstrap/scss/bootstrap";
+
+
+
+
+
+
+// utitlites
+@import "./utilites/color.css";
+@import "./utilites/display.css";
+@import "./utilites/flex.css";
+@import "./utilites/height.css";
+@import "./utilites/overflow.css";
+@import "./utilites/position.css";
+@import "./utilites/width.css";
+@import "./utilites/margin.css";
+@import "./utilites/padding.css";
+@import "./utilites/font.css";

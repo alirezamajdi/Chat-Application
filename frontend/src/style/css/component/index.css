@@ -1,0 +1,99 @@
+
+html{
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  direction: rtl;
+  text-align: right;
+  background: #FAFAFA;
+  overflow-x: hidden;
+}
+img{
+  max-width: 100%;
+}
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1650px !important;
+      width: calc(98% - 30px) !important;
+      margin: 0 auto;
+  }
+}
+
+/* //desktop */
+@media (min-width: 1200px) and (max-width: 1650px) {
+  .container {
+      max-width: 1650px !important;
+      width: calc(90% - 30px) !important;
+      margin: 0 auto;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+      max-width: 1650px !important;
+      width: calc(90% - 30px) !important;
+      margin: 0 auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+      max-width: 1650px !important;
+      width: calc(90% - 30px) !important;
+      margin: 0 auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+      max-width: 1650px !important;
+      width: calc(90% - 30px) !important;
+      margin: 0 auto;
+  }
+}
+@media (max-width: 576px){
+  .container {
+      max-width: 1650px !important;
+      width: calc(90% - 30px) !important;
+      margin: 0 auto;
+  }
+}
+a:hover{
+  text-decoration: none !important;
+}
+.vh-100{
+  height: 100vh;
+}
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lgksPe,
+.iLquPE{
+  display: none;
+}
+.rec-swipable{
+  align-items: center;
+}
+.main {
+  margin: 2em 22em;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 25px 5px rgba(0,0,0,.07);
+}
+ul{
+  padding-right: 0 !important;
+  margin-bottom: 0 !important;
+}
+p{
+  font-size: 14px;
+}
+label{
+  font-size: 15px;
+}
+.map{
+  height: 100vh;
+}
+div{
+  font-family: 'IranSans' !important;
+}

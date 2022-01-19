@@ -1,0 +1,103 @@
+.auth{
+  background: radial-gradient(ellipse at center, #EEF4F8 0%, #B8C9D6 100%);
+  width: 100%;
+  height: 100vh;
+}
+.auth-page-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.main-form{
+  width: 400px;
+    height: 350px;
+    background: #383e45;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: 0 2px 4px rgb(56 62 69 / 40%);
+    z-index: 2;
+}
+.main-form::after{
+  content: "";
+    z-index: -1;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 0 rgb(0 0 0 / 10%), inset 0 -1px 0 rgb(255 255 255 / 70%);
+    top: -10px;
+    bottom: -10px;
+    right: -10px;
+    left: -10px;
+    background: rgba(56, 62, 69, 0.3);
+}
+.main-form.back{
+  display: none;
+}
+.main-form .inner-form{
+  background: url("/images/bg-mainForm.png");
+  height: 100%;
+  padding: 20px;
+
+}
+.main-form form{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.auth-btn{
+  display: flex;
+  padding-top: 25px;
+  justify-content: center;
+  border-top: 1px #565f6a dotted;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.auth-btn button{
+  outline: none !important;
+    border: 1px #1e2329 solid;
+    color: #afc1d5;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+    min-height: 30px;
+    padding: 0 10px;
+    line-height: 30px;
+    display: inline-block;
+    letter-spacing: normal;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-decoration: none;
+    box-shadow: inset 0 1px 0 #67717b, 0 1px 3px rgb(0 0 0 / 20%);
+    background-image: linear-gradient(to bottom, #525d69, #454e57);
+    border-radius: 3px;
+    min-width: 45%;
+    height: 40px;
+    text-align: center;
+}
+.auth-btn button:hover{
+  background-image: linear-gradient(to bottom, #525d69, #32363a);
+}
+.main-form .user-img{
+  text-align: center;
+}
+
+.main-form select,
+.main-form input{
+  border: none;
+  background: #262a2e;
+    box-sizing: border-box;
+    border-radius: 4px;
+  margin: 10px 0px;
+  padding-right: 10px;
+  color: #848f9a;
+  height: 40px;
+  font-size: 13px;
+}
+.main-form input::placeholder{
+  color: #848f9a;
+}
+.main-form select:focus,
+.main-form input:focus{
+  outline: none;
+}

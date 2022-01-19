@@ -1,0 +1,19 @@
+
+:root {
+    --bg:#fcfcfc;
+    --bg-footer: #F2F2F2;
+    --gray: #929295;
+    --image-border: #3699FF;
+    --text-gray: #929295;
+    --text-mobile: #7A8FA6;
+    --text-blue: #3699FF;
+}
+.bg-footer {
+    background-color: var(--bg-footer);
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}

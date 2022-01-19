@@ -1,0 +1,151 @@
+
+.landing{
+    color: #2c3e50;
+}
+.landing .title{
+    padding: 10px 0px 30px;
+}
+.landing .map{
+    height: 40vh;
+}
+.landing .title p,
+.landing .title h3{
+    text-align: center;
+}
+.landing .title p{
+    margin: 1rem;
+}
+.filter-melk{
+    align-items: center;
+    margin: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.filter-melk .avatar-and-detail{
+    display: flex;
+    align-items: center;
+}
+.filter-melk .avatar-and-detail p{
+    margin-bottom: 0px !important;
+    margin: 4px 0px;
+}
+.filter-melk .avatar-and-detail p:first-child a{
+    color: #025bbbf7;
+    font-weight: bold;
+    font-size: 19px;
+}
+.filter-melk .icon{
+    display: flex;
+}
+.filter-melk .icon div{
+    margin: 0px 5px;
+    flex-direction: column;
+    display: flex;
+}
+.filter-melk .icon div span{
+    text-align: center;
+}
+
+.avatar-and-detail .detail{
+    margin-right: 10px;
+}
+.filter-melk .avatar-and-detail img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #00000094;
+}
+
+.landing .top-page{
+    position: relative;
+    background: url("/images/banner-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.landing .top-page::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+}
+/* .landing .bg-topPage img{
+    height: 130vh;
+    width: 100%;
+} */
+.landing .filter{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
+.landing .filter-form{
+    background: rgb(255 255 255 / 65%);
+    width: 100%;
+    padding: 20px;
+    border-radius: 0.25rem;
+}
+.landing .filter-form select,
+.landing .filter-form input{
+    margin: 20px 0px;
+}
+.landing .filter-form button{
+    width: 100%;
+    height: 45px;
+}
+.landing .filter-result{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+}
+
+.landing .filter-result.active{
+    background: rgb(255 255 255 / 65%);
+    width: 100%;
+    padding: 20px;
+    border-radius: 0.25rem;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+.landing .filter-result .close{
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: flex-end;
+}
+.landing .resent-amlak{
+    padding: 30px 0;
+    background: #f6f6f6;
+}
+.landing .achievement{
+    background: url("/images/bg-achievement.jpg");
+    padding: 65px 0px;
+    background-repeat: no-repeat;
+}
+.child-achievement{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.child-achievement span{
+    color: #f3bc65;
+}
+.child-achievement span:first-child{
+    display: inline-block;
+    margin-top: 70px;
+    font-size: 45px;
+}
+.child-achievement i{
+    color: #a6a6a6;
+    font-size: 28px;
+}

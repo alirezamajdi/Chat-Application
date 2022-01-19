@@ -1,0 +1,183 @@
+.chat {
+  overflow-x: hidden;
+}
+.bodyChat {
+  height: 91vh;
+  position: relative;
+  background: #eeebe7;
+}
+.headChat {
+  background: #f3f1ee;
+  text-align: right;
+  padding: 10px 20px;
+}
+.headChat p {
+  margin-bottom: 0px;
+}
+.headChat a{
+  cursor: pointer;
+}
+.headChat .user-profile {
+  display: flex;
+  align-items: center;
+}
+.headChat .user-profile img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.bodyChat .messageChat {
+  height: 90%;
+  overflow-y: auto;
+  padding: 20px 50px;
+}
+.user-profile p,
+.headChat a {
+  margin: 0px 10px;
+}
+.userList {
+  height: 91vh;
+  overflow: auto;
+  overflow-x: hidden;
+  padding: 15px 26px;
+}
+.userList .user {
+  margin: 17px 0px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+.userList .message-user {
+  height: 20px;
+  overflow: hidden;
+}
+.userList p {
+  font-size: 13px;
+}
+.sendBox {
+  background: #dacdc7;
+  position: fixed;
+  bottom: 0;
+  padding: 12px 25px;
+  width: calc(101vw / 12 * 9);
+  display: flex;
+  align-items: center;
+}
+.sendBox span {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.sendBox input {
+  display: flex;
+  flex-grow: 1;
+  border: none;
+  padding: 10px;
+  border-radius: 100px;
+  color: #707070;
+}
+.sendBox input:focus {
+  outline: 0;
+}
+.sendBox svg {
+  color: #707070;
+}
+.bodyChat .message {
+  width: 400px;
+  background: #efefef;
+  padding: 15px 30px;
+  margin: 10px 0;
+}
+.bodyChat .message p {
+  font-size: 16px;
+  text-align: justify;
+}
+.bodyChat .message .time {
+  display: flex;
+  font-size: 12px;
+}
+.head-message {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.head-message span:first-child {
+  color: #828080;
+}
+.head-message span:nth-child(2) {
+  color: #af0202;
+}
+@media (max-width: 575.98px) {
+  .user-profile {
+    display: none !important;
+  }
+  .headChat {
+    padding: 21px 16px;
+  }
+  .sendBox {
+    width: 103vw;
+  }
+  .bodyChat .message p {
+    font-size: 12px;
+  }
+  .chat span {
+    font-size: 14px;
+  }
+  .chat input {
+    font-size: 12px;
+  }
+  .chat svg {
+    width: 20px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .user-profile {
+    display: none !important;
+  }
+  .headChat {
+    padding: 21px 16px;
+  }
+  .sendBox {
+    width: 103vw;
+  }
+  .bodyChat .message p {
+    font-size: 12px;
+  }
+  .chat span {
+    font-size: 14px;
+  }
+  .chat input {
+    font-size: 12px;
+  }
+  .chat svg {
+    width: 20px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .bodyChat .message p {
+    font-size: 13px;
+  }
+  .sendBox {
+    width: calc(103vw / 12 * 8);
+  }
+  .chat span {
+    font-size: 14px;
+  }
+  .chat input {
+    font-size: 13px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+}

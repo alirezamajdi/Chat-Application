@@ -1,0 +1,270 @@
+@font-face {
+    font-family: IranSans-Bold;
+    font-style: normal;
+    font-display: fallback;
+    src: url("../../fonts/IRANSans/ttf/IRANSansWeb_Bold.ttf");
+}
+@font-face {
+    font-family: IranSans-Light;
+    font-style: normal;
+    font-display: fallback;
+    src: url("../../fonts/IRANSans/ttf/IRANSansWeb_Light.ttf");
+}
+@font-face {
+    font-family: IranSans;
+    font-style: normal;
+    font-display: fallback;
+    src: url("../../fonts/IRANSans/ttf/IRANSansWeb_Medium.ttf");
+}
+.iransans-bold {
+    font-family: IranSans-Bold !important;
+}
+.iransans-light {
+    font-family: IranSans-Light !important;
+}
+.iransans {
+    font-family: IranSans !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+q,
+blockquote,
+input::placeholder,
+textarea::placeholder,
+select::placeholder,
+table,
+option,
+label,
+input,
+button,
+select,
+optgroup,
+textarea {
+    font-family: IranSans;
+    text-align: start;
+    direction: rtl;
+}
+
+@media screen and (min-width: 1920px) {
+    .font-9 {
+        font-size: 9px;
+    }
+    .font-10 {
+        font-size: 10px;
+    }
+    .font-12 {
+        font-size: 12px;
+    }
+    .font-13 {
+        font-size: 13px;
+    }
+    .font-14 {
+        font-size: 14px;
+    }
+    .font-16 {
+        font-size: 16px;
+    }
+    .font-18 {
+        font-size: 18px;
+    }
+    .font-20 {
+        font-size: 20px;
+    }
+    .font-21 {
+        font-size: 21px;
+    }
+    .font-22 {
+        font-size: 22px;
+    }
+    .font-23 {
+        font-size: 23px;
+    }
+    .font-35 {
+        font-size: 35px;
+    }
+    .font-39 {
+        font-size: 39px;
+    }
+    .custom-container {
+        max-width: 1920px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 1920px) {
+    .font-9 {
+        font-size: 9px;
+    }
+    .font-10 {
+        font-size: 10px;
+    }
+    .font-12 {
+        font-size: 12px;
+    }
+    .font-13 {
+        font-size: 13px;
+    }
+    .font-14 {
+        font-size: 14px;
+    }
+    .font-16 {
+        font-size: 16px;
+    }
+    .font-18 {
+        font-size: 18px;
+    }
+    .font-20 {
+        font-size: 20px;
+    }
+    .font-21 {
+        font-size: 21px;
+    }
+    .font-22 {
+        font-size: 22px;
+    }
+    .font-23 {
+        font-size: 23px;
+    }
+    .font-35 {
+        font-size: 35px;
+    }
+    .font-39 {
+        font-size: 39px;
+    }
+    .custom-container {
+        max-width: 1920px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .font-9 {
+        font-size: 9px;
+    }
+    .font-10 {
+        font-size: 10px;
+    }
+    .font-12 {
+        font-size: 10px;
+    }
+    .font-13 {
+        font-size: 13px;
+    }
+    .font-14 {
+        font-size: 12px;
+    }
+    .font-16 {
+        font-size: 14px;
+    }
+    .font-18 {
+        font-size: 16px;
+    }
+    .font-20 {
+        font-size: 18px;
+    }
+    .font-21 {
+        font-size: 21px;
+    }
+    .font-22 {
+        font-size: 20px;
+    }
+    .font-23 {
+        font-size: 23px;
+    }
+    .font-35 {
+        font-size: 25px;
+    }
+    .font-39 {
+        font-size: 39px;
+    }
+    .custom-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+.text-nowrap {
+    white-space: nowrap;
+}
+.text-start {
+    text-align: start;
+}
+.text-end {
+    text-align: end;
+}
+.text-center {
+    text-align: center;
+}
+.text-justify {
+    text-align: justify;
+}
+.text-middle {
+    vertical-align: middle !important;
+}
+.text-bottom {
+    vertical-align: bottom;
+}
+.text-lowercase {
+    text-transform: lowercase;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-white {
+    color: var(--white);
+}
+.text-blue {
+    color: var(--text-blue);
+}
+.text-green {
+    color: var(--green);
+}
+.text-black {
+    color: var(--black);
+}
+.text-red {
+    color: var(--red) !important;
+}
+.text-hidden {
+    color: var(--silver);
+}
+.text-gray-pinstar {
+    color: var(--text-gray) !important;
+}
+.text-gray-mobile {
+    color: var(--text-mobile) !important;
+}
+
+.text-lightgray {
+    color: var(--light-gray);
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.text-bold {
+    font-family: IranSans;
+    font-weight: bold;
+}
+
+.text-nowrap-fade {
+    max-width: 450px;
+    overflow: hidden;
+}
+.text-nowrap-fade p {
+    background-image: linear-gradient(150deg, #000000 0%, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    display: inline-block;
+}
